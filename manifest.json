@@ -1,7 +1,7 @@
 {
-  "name": "GDG Spain",
-  "short_name": "GDG Spain",
-  "description": "Organización que agrupa a todos los Google Developer Groups de España.",
+  "name": "GDG Ghana",
+  "short_name": "GDG Ghana",
+  "description": "A umbrella site for Google Developer Groups in Ghana",
   "start_url": "/?homescreen=1",
   "display": "standalone",
   "theme_color": "#4285f4",

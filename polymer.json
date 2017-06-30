@@ -3,7 +3,6 @@
   "shell": "src/app-shell.html",
   "fragments": [
     "src/page-404/page-404.html",
-    "src/page-branding/page-branding.html",
     "src/page-events/page-events.html",
     "src/page-groups/page-groups.html",
     "src/page-home/page-home.html"

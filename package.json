@@ -1,16 +1,16 @@
 {
-  "name": "gdg.es",
+  "name": "gdgghana.com",
   "version": "0.14.1",
-  "description": "The GDG Spain official website",
+  "description": "The GDG Ghana official website - A clone of GDG Spain",
   "author": "Abdón Rodríguez Davila <a@abdonrd.com> (https://abdonrd.com)",
-  "homepage": "https://gdg.es",
+  "homepage": "https://gdgghana.com",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/GDGSpain/gdg.es.git"
+    "url": "git@github.com:GDGGhana/web.git"
   },
   "bugs": {
-    "url": "https://github.com/GDGSpain/gdg.es/issues"
+    "url": "git@github.com:GDGGhana/web.git/issues"
   },
   "devDependencies": {
     "del": "^2.2.0",
