@@ -11,7 +11,7 @@ This code may only be used under the MIT style license found at http://gdg.es/LI
 <link rel="import" href="../../bower_components/polymerfire/firebase-query.html">
 <link rel="import" href="../app-elements/gdgspain-animate-page.html">
 <link rel="import" href="../app-styles.html">
-<link rel="import" href="page-groups-list.html">
+<!-- <link rel="import" href="page-groups-list.html"> -->
 
 <dom-module id="page-groups">
   <template>
@@ -32,13 +32,13 @@ This code may only be used under the MIT style license found at http://gdg.es/LI
         @apply --layout-flex;
       }
     </style>
-
+<!--
     <firebase-query
         path="/groups"
         order-by-child="active"
         equal-to="true"
         data="{{groups}}">
-    </firebase-query>
+    </firebase-query> -->
 
     <app-indexeddb-mirror
         key="groups"
