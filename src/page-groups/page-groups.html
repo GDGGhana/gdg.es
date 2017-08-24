@@ -11,6 +11,8 @@ This code may only be used under the MIT style license found at http://gdg.es/LI
 <link rel="import" href="../../bower_components/polymerfire/firebase-query.html">
 <link rel="import" href="../app-elements/gdgspain-animate-page.html">
 <link rel="import" href="../app-styles.html">
+<link rel="import" href="../../bower_components/jquery/jq.html">
+
 <!-- <link rel="import" href="page-groups-list.html"> -->
 
 <dom-module id="page-groups">
@@ -32,53 +34,38 @@ This code may only be used under the MIT style license found at http://gdg.es/LI
         @apply --layout-flex;
       }
     </style>
-<!--
-    <firebase-query
-        path="/groups"
-        order-by-child="active"
-        equal-to="true"
-        data="{{groups}}">
-    </firebase-query> -->
-
-    <app-indexeddb-mirror
-        key="groups"
-        data="{{groups}}"
-        persisted-data="{{persistedGroups}}">
-    </app-indexeddb-mirror>
 
     <header>
       <h1>Groups</h1>
       <paper-input label="Search" type="text" value="{{inputText}}" autofocus></paper-input>
     </header>
 
-    <div id="transformedContent">
-      <page-groups-list
-          groups="[[persistedGroups]]"
-          filter-groups="{{inputText}}"></page-groups-list>
-    </div>
   </template>
+  <template>
+    <paper-menu class="list" on-iron-activate="_listTap">
+    <template is="dom-repeat" items="{{groups}}">
+
+
+        <paper-item>
+            <div> <span>{{item.name}}</span> </div>
+            <div> <span>{{item.status}}</span> </div>
+        </paper-item>
+
+    </template>
+      </paper-menu>
+
+  </template>
+
 
   <script>
     Polymer({
       is: 'page-groups',
-
-      properties: {
-        visible: {
-          type: Boolean,
-          observer: '_visibleChanged'
-        }
-      },
-
-      behaviors: [
-        Polymer.GDGSpainAnimatePage
-      ],
-
-      _visibleChanged: function(visible) {
-        if (visible) {
-          this.fire('change-section', {
-            title: 'Groups - GDG Ghana'
-          });
-        }
+      ready: function() {
+        var _self = this;
+         $.get('data/meetup.json',function(data){
+            _self.groups = data;
+             console.log(_self.groups);
+         });
       }
     });
   </script>

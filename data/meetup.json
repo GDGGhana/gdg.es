@@ -1,0 +1,142 @@
+[
+    {
+        "id": 23403437,
+        "name": "GDG Accra",
+        "status": "active",
+        "link": "https://www.meetup.com/GDG-Accra/",
+        "urlname": "GDG-Accra",
+        "description": "<p>Google Developer Groups (GDGs) are for developers who are interested in Google's developer technology; everything from the Android, Chrome, Drive, and Google Cloud platforms, to product APIs like the Cast API, Maps API, and YouTube API and GDG Accra is no different. <br>Based in Accra, this developer group consists of both students and workers that reside within the Accra metropolis.Events are usually organised at least once every 30 days, most often than not @ iSpace Foundation.</p>\n<p>Disclaimer: GDG Accra is an independent group; our activities and the opinions expressed here should in no way be linked to Google, the corporation. To learn more about the GDG program, visit <a href=\"https://developers.google.com/groups/\" class=\"linkified\">https://developers.google.com/groups/</a></p>",
+        "created": 1493034425000,
+        "city": "Accra",
+        "country": "GH",
+        "localized_country_name": "Ghana",
+        "localized_location": "Accra, Ghana",
+        "state": "",
+        "join_mode": "open",
+        "visibility": "public",
+        "lat": 5.56,
+        "lon": -0.2,
+        "members": 250,
+        "who": "Members",
+        "key_photo": {
+            "id": 463741028,
+            "highres_link": "https://secure.meetupstatic.com/photos/event/4/0/4/highres_463741028.jpeg",
+            "photo_link": "https://secure.meetupstatic.com/photos/event/4/0/4/600_463741028.jpeg",
+            "thumb_link": "https://secure.meetupstatic.com/photos/event/4/0/4/thumb_463741028.jpeg",
+            "type": "event",
+            "base_url": "https://secure.meetupstatic.com"
+        },
+        "timezone": "Africa/Accra",
+        "category": {
+            "id": 34,
+            "name": "Tech",
+            "shortname": "tech",
+            "sort_name": "Tech"
+        },
+        "meta_category": {
+            "id": 292,
+            "shortname": "tech",
+            "name": "Tech",
+            "sort_name": "Tech",
+            "photo": {
+                "id": 450131949,
+                "highres_link": "https://secure.meetupstatic.com/photos/event/2/e/a/d/highres_450131949.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/event/2/e/a/d/600_450131949.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/event/2/e/a/d/thumb_450131949.jpeg",
+                "type": "event",
+                "base_url": "https://secure.meetupstatic.com"
+            },
+            "category_ids": [
+                34
+            ]
+        }
+    },
+    {
+        "id": 23436754,
+        "name": "GDG University Of Cape Coast",
+        "status": "active",
+        "link": "https://www.meetup.com/GDG-University-Of-Cape-Coast/",
+        "urlname": "GDG-University-Of-Cape-Coast",
+        "description": "<p>Google Developer Groups University of Cape Coast is a community of enthusiasts of developers who are interested in Google's developer technology; everything from the Android, Chrome, Drive, and Google Cloud platforms, to product APIs like the Cast API, Maps API, and YouTube API based in the University of Cape Coast, along the coast of the gulf of guinea, Ghana.<br>We meet together to watch the latest google technology videos, to large gatherings with demos and tech talks, to events like code sprints, hackathons and also to discuss, share and learn google technologies in a fun, creative and innovative way.<br>However, at the core, we are focused on developers and technical content, and the core audience should be developers but anybody interested in being a developer can join us.</p> \n<p>Disclaimer: GDG University of Cape Coast is an independent group; our activities and the opinions expressed on this +Page should in no way be linked to Google, the corporation.</p>",
+        "created": 1493192186000,
+        "city": "Cape Coast",
+        "country": "GH",
+        "localized_country_name": "Ghana",
+        "localized_location": "Cape Coast, Ghana",
+        "state": "",
+        "join_mode": "open",
+        "visibility": "public",
+        "lat": 5.11,
+        "lon": -1.25,
+        "members": 50,
+        "who": "Members",
+        "timezone": "Africa/Accra",
+        "category": {
+            "id": 34,
+            "name": "Tech",
+            "shortname": "tech",
+            "sort_name": "Tech"
+        },
+        "meta_category": {
+            "id": 292,
+            "shortname": "tech",
+            "name": "Tech",
+            "sort_name": "Tech",
+            "photo": {
+                "id": 450131949,
+                "highres_link": "https://secure.meetupstatic.com/photos/event/2/e/a/d/highres_450131949.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/event/2/e/a/d/600_450131949.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/event/2/e/a/d/thumb_450131949.jpeg",
+                "type": "event",
+                "base_url": "https://secure.meetupstatic.com"
+            },
+            "category_ids": [
+                34
+            ]
+        }
+    },
+    {
+        "id": 23696491,
+        "name": "GDG KNUST",
+        "status": "active",
+        "link": "https://www.meetup.com/GDG-KNUST/",
+        "urlname": "GDG-KNUST",
+        "description": "<p>Google I/O showcases technical in-depth sessions focused on building web, mobile, and enterprise applications with Google and open sources such as Android, Chrome and Chrome OS, APIs, Google Web Toolkit, App Engine, and more. It is an event that aims to bring local tech community together to experience talks, in-depth product demos and behind-the-scenes interviews</p> \n<p>Disclaimer: GDG KNUST is an independent group; our activities and the opinions expressed here should in no way be linked to Google, the corporation. To learn more about the GDG program, visit <a href=\"https://developers.google.com/groups/\" class=\"linkified\">https://developers.google.com/groups/</a></p>",
+        "created": 1494378110000,
+        "city": "Kumasi",
+        "country": "GH",
+        "localized_country_name": "Ghana",
+        "localized_location": "Kumasi, Ghana",
+        "state": "",
+        "join_mode": "open",
+        "visibility": "public",
+        "lat": 6.69,
+        "lon": -1.63,
+        "members": 49,
+        "who": "Members",
+        "timezone": "Africa/Accra",
+        "category": {
+            "id": 34,
+            "name": "Tech",
+            "shortname": "tech",
+            "sort_name": "Tech"
+        },
+        "meta_category": {
+            "id": 292,
+            "shortname": "tech",
+            "name": "Tech",
+            "sort_name": "Tech",
+            "photo": {
+                "id": 450131949,
+                "highres_link": "https://secure.meetupstatic.com/photos/event/2/e/a/d/highres_450131949.jpeg",
+                "photo_link": "https://secure.meetupstatic.com/photos/event/2/e/a/d/600_450131949.jpeg",
+                "thumb_link": "https://secure.meetupstatic.com/photos/event/2/e/a/d/thumb_450131949.jpeg",
+                "type": "event",
+                "base_url": "https://secure.meetupstatic.com"
+            },
+            "category_ids": [
+                34
+            ]
+        }
+    }
+]
